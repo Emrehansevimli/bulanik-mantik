@@ -47,8 +47,8 @@ Konsantrasyon (0-10): Sürücünün odaklanma seviyesi
 Grafiklerde üçgen biçiminde çizilen üyelik fonksiyonları, her kategorinin tepe noktasında etiketlerle işaretlenir. Ayrıca kullanıcı girdileri ve tahmin sonuçları kırmızı çizgilerle gösterilir.
 
 📷 Ekran Görüntüsü
-
-
+https://github.com/Emrehansevimli/bulanik-mantik/blob/main/resim.png
+https://github.com/Emrehansevimli/bulanik-mantik/blob/main/resim2.png
 > Gerekli kütüphaneleri yüklemek için:
 ```bash
 pip install -r requirements.txt
