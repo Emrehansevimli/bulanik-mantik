@@ -29,6 +29,7 @@ tkinter
 - numpy
 - matplotlib
 - scikit-fuzzy
+📊 Girdi Parametreleri
 | Parametre               | Açıklama                         | Aralık       |
 | ----------------------- | -------------------------------- | ------------ |
 | Sürüş Süresi (dk)       | Direksiyon başında geçen süre    | 0 - 300 dk   |
@@ -36,6 +37,17 @@ tkinter
 | Göz Açıklık Süresi (sn) | Göz açık kalma süresi            | 0 - 10 sn    |
 | Yol Durumu              | Yolun kalitesi (0 kötü - 10 iyi) | 0 - 10       |
 | Sıcaklık (°C)           | Ortam sıcaklığı                  | -10°C - 40°C |
+C
+
+🧠 Çıktılar
+Yorgunluk (0-10): Sürücünün yorgunluk seviyesi
+
+Konsantrasyon (0-10): Sürücünün odaklanma seviyesi
+
+Grafiklerde üçgen biçiminde çizilen üyelik fonksiyonları, her kategorinin tepe noktasında etiketlerle işaretlenir. Ayrıca kullanıcı girdileri ve tahmin sonuçları kırmızı çizgilerle gösterilir.
+
+📷 Ekran Görüntüsü
+
 
 > Gerekli kütüphaneleri yüklemek için:
 ```bash
