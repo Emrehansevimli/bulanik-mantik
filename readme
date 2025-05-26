@@ -29,6 +29,13 @@ tkinter
 - numpy
 - matplotlib
 - scikit-fuzzy
+| Parametre               | Açıklama                         | Aralık       |
+| ----------------------- | -------------------------------- | ------------ |
+| Sürüş Süresi (dk)       | Direksiyon başında geçen süre    | 0 - 300 dk   |
+| Baş Eğimi (°)           | Başın öne eğim açısı             | 0° - 90°     |
+| Göz Açıklık Süresi (sn) | Göz açık kalma süresi            | 0 - 10 sn    |
+| Yol Durumu              | Yolun kalitesi (0 kötü - 10 iyi) | 0 - 10       |
+| Sıcaklık (°C)           | Ortam sıcaklığı                  | -10°C - 40°C |
 
 > Gerekli kütüphaneleri yüklemek için:
 ```bash
