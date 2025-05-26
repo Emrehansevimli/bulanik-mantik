@@ -1,15 +1,28 @@
-# 🚗 Sürücü Değerlendirme
+🚗 Sürücü Durum Değerlendirici (Fuzzy Logic Tabanlı)
+Bu proje, sürücünün yorgunluk ve konsantrasyon seviyesini değerlendiren bulanık mantık (fuzzy logic) tabanlı bir karar destek sistemidir. Python programlama dili ve çeşitli açık kaynak kütüphaneler kullanılarak geliştirilmiş görsel bir uygulamadır.
 
-Bu proje, sürücüleri değerlendirmek amacıyla bulanık mantık (fuzzy logic) kullanan bir sistem içerir. Jupyter Notebook üzerinde hazırlanmıştır ve Python programlama dili ile geliştirilmiştir.
+📌 Proje Özeti
+Sürücüler uzun süre direksiyon başında kaldıklarında dikkat dağınıklığı ve yorgunluk gibi durumlar kazalara neden olabilir. Bu sistem; sürüş süresi, baş eğimi, göz açıklığı süresi, yol durumu ve sıcaklık gibi beş farklı değişkeni kullanarak sürücünün yorgunluk ve konsantrasyon düzeyini tahmin eder.
 
-## 📌 Amaç
+Tahmin sonuçları, kullanıcıya hem metinle hem de grafiklerle görsel olarak sunulur.
 
-Sürüş sırasında toplanan veriler (örneğin hız, ani fren, dönme, hızlanma gibi) değerlendirilerek, sürücünün risk seviyesi veya güvenli sürüş davranışları sınıflandırılır.
+🚀 Özellikler
+Kullanıcı dostu arayüz: Basit ve sezgisel giriş alanları
 
-## 📁 İçerik
+Bulanık Mantık Modeli: Belirsizlik içeren durumlar için mantıklı tahminler
 
-- `surucu_degerlendirme.ipynb`: Proje dosyası (Jupyter Notebook)
-- `requirements.txt`: Kullanılan Python kütüphaneleri
+Görselleştirme: Üyelik fonksiyonları ve sonuçlar grafiklerle sunulur
+
+Gerçek zamanlı değerlendirme: Girdi verileri girildiğinde sistem sonucu anında hesaplar
+
+🧰 Kullanılan Teknolojiler
+Python 3.x
+
+scikit-fuzzy
+
+matplotlib
+
+tkinter
 
 ## 🛠️ Kullanılan Kütüphaneler
 
