@@ -1,1 +1,23 @@
+# 🚗 Sürücü Değerlendirme
+
+Bu proje, sürücüleri değerlendirmek amacıyla bulanık mantık (fuzzy logic) kullanan bir sistem içerir. Jupyter Notebook üzerinde hazırlanmıştır ve Python programlama dili ile geliştirilmiştir.
+
+## 📌 Amaç
+
+Sürüş sırasında toplanan veriler (örneğin hız, ani fren, dönme, hızlanma gibi) değerlendirilerek, sürücünün risk seviyesi veya güvenli sürüş davranışları sınıflandırılır.
+
+## 📁 İçerik
+
+- `surucu_degerlendirme.ipynb`: Proje dosyası (Jupyter Notebook)
+- `requirements.txt`: Kullanılan Python kütüphaneleri
+
+## 🛠️ Kullanılan Kütüphaneler
+
+- numpy
+- matplotlib
+- scikit-fuzzy
+
+> Gerekli kütüphaneleri yüklemek için:
+```bash
+pip install -r requirements.txt
 
