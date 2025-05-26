@@ -1,0 +1,55 @@
+🚗 Sürücü Durum Değerlendirici (Fuzzy Logic Tabanlı)
+Bu proje, sürücünün yorgunluk ve konsantrasyon seviyesini değerlendiren bulanık mantık (fuzzy logic) tabanlı bir karar destek sistemidir. Python programlama dili ve çeşitli açık kaynak kütüphaneler kullanılarak geliştirilmiş görsel bir uygulamadır.
+
+📌 Proje Özeti
+Sürücüler uzun süre direksiyon başında kaldıklarında dikkat dağınıklığı ve yorgunluk gibi durumlar kazalara neden olabilir. Bu sistem; sürüş süresi, baş eğimi, göz açıklığı süresi, yol durumu ve sıcaklık gibi beş farklı değişkeni kullanarak sürücünün yorgunluk ve konsantrasyon düzeyini tahmin eder.
+
+Tahmin sonuçları, kullanıcıya hem metinle hem de grafiklerle görsel olarak sunulur.
+
+🚀 Özellikler
+Kullanıcı dostu arayüz: Basit ve sezgisel giriş alanları
+
+Bulanık Mantık Modeli: Belirsizlik içeren durumlar için mantıklı tahminler
+
+Görselleştirme: Üyelik fonksiyonları ve sonuçlar grafiklerle sunulur
+
+Gerçek zamanlı değerlendirme: Girdi verileri girildiğinde sistem sonucu anında hesaplar
+
+🧰 Kullanılan Teknolojiler
+Python 3.x
+
+scikit-fuzzy
+
+matplotlib
+
+tkinter
+
+## 🛠️ Kullanılan Kütüphaneler
+
+- numpy
+- matplotlib
+- scikit-fuzzy
+📊 Girdi Parametreleri
+| Parametre               | Açıklama                         | Aralık       |
+| ----------------------- | -------------------------------- | ------------ |
+| Sürüş Süresi (dk)       | Direksiyon başında geçen süre    | 0 - 300 dk   |
+| Baş Eğimi (°)           | Başın öne eğim açısı             | 0° - 90°     |
+| Göz Açıklık Süresi (sn) | Göz açık kalma süresi            | 0 - 10 sn    |
+| Yol Durumu              | Yolun kalitesi (0 kötü - 10 iyi) | 0 - 10       |
+| Sıcaklık (°C)           | Ortam sıcaklığı                  | -10°C - 40°C |
+C
+
+🧠 Çıktılar
+Yorgunluk (0-10): Sürücünün yorgunluk seviyesi
+
+Konsantrasyon (0-10): Sürücünün odaklanma seviyesi
+
+Grafiklerde üçgen biçiminde çizilen üyelik fonksiyonları, her kategorinin tepe noktasında etiketlerle işaretlenir. Ayrıca kullanıcı girdileri ve tahmin sonuçları kırmızı çizgilerle gösterilir.
+
+📷 Ekran Görüntüsü
+
+
+> Gerekli kütüphaneleri yüklemek için:
+```bash
+pip install -r requirements.txt
+
